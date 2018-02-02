@@ -4,6 +4,10 @@ void main()
   int i=0,temp,j=0,size;
   scanf("%d",&size);
   int a[size];
+  
+  
+  
+  
   for(i=0;i<size;i++)
   scanf("%d",&a[i]);
   for(i=0;i<size-1;i++)
@@ -22,6 +26,5 @@ void main()
 
   for(i=0;i<size;i++)
   printf("%d",a[i]);
-
 
 }
